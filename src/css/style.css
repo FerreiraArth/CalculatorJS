@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/nebulosas2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 5px #7c2ff779;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+#res {
+    background: rgba(137, 43, 226, 0.3);
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+    padding: 5px;
+    height: 50px;
+    width: 95%;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    font-size: 1.5rem;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #7c2ff7;
+}
